@@ -33,3 +33,25 @@ console.log(fruits.length);
 fruits.forEach((fruit)=>{
     console.log(fruit);
 })
+
+//Map and Filter Function 
+let numbers = [1,2,3,4,5,6,7,8,9,10]
+
+let doubleNumbers = numbers.map(function(number){
+    return number*2
+})
+
+let doubleNumberArrowFunction = numbers.map(number => number*2)
+
+//Filter Function
+let evenNumbers = numbers.filter(function(number){
+  return number%2 === 0
+})
+
+let evenNumbersWithArrowFunction = numbers.filter(number => number%2===0)
+
+
+
+console.log(evenNumbersWithArrowFunction);
+
+
