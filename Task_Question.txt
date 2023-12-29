@@ -1,0 +1,39 @@
+## JavaScript Challenge: Student Grading System
+
+### Task Description:
+
+Create a JavaScript program that models a student grading system using a class named `Student`.
+The program should allow the dynamic creation of multiple student objects and display their details,
+including name, age, exam score, and calculated grade.
+
+### Requirements:
+
+1. **Class Definition:**
+   - Implement a class named `Student` with a constructor that takes parameters for `name`, `age`,
+    and `examScore`.
+   - Include a method named `calculateGrade` within the class to determine the grade based
+    on the following criteria:
+     - A score of 90 and above: "A"
+     - A score between 80 and 89: "B"
+     - A score between 70 and 79: "C"
+     - A score below 70: "D"
+
+2. **Instance Creation:**
+   - Create at least three instances of the `Student` class with different names, ages, 
+   and exam scores.
+
+3. **Array of Students:**
+   - Store the created instances in an array named `studentList`.
+
+4. **Display Details:**
+   - Use a loop to iterate through the `studentList` and display the details of each student, 
+   including their name, age, exam score, and grade.
+
+### Example:
+
+```Output
+// Example Output
+// Student 1:
+// Name: John, Age: 20, Exam Score: 95, Grade: A
+// ...
+
